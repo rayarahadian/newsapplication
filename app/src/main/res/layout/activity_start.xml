@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.evliveraya.newsapplication.View.StartActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/launch_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textColor="@color/white"
+        android:fontFamily="@font/robotoregular"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:id="@+id/launch_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get the latest news with our apps!"
+        android:textColor="@color/white"
+        android:fontFamily="@font/robotoregular"
+        android:layout_below="@id/launch_text1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/launch_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="100dp"
+        android:text="Continue"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:background="@color/lightred"/>
+
+</RelativeLayout>

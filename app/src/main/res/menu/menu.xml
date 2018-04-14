@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_headline"
+        android:title="Headline News" />
+
+    <item
+        android:id="@+id/navigation_business"
+        android:title="Business" />
+
+    <item
+        android:id="@+id/navigation_entertainment"
+        android:title="Entertainment" />
+
+    <item
+        android:id="@+id/navigation_health"
+        android:title="Health" />
+
+    <item
+        android:id="@+id/navigation_science"
+        android:title="Science" />
+
+    <item
+        android:id="@+id/navigation_sports"
+        android:title="Sports"/>
+
+    <item
+        android:id="@+id/navigation_technology"
+        android:title="Technology" />
+
+</menu>
+
